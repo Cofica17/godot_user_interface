@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://interface/counter/Counter.tscn" type="PackedScene" id=1]
+
+[node name="BombsCounter" instance=ExtResource( 1 )]
+margin_right = 132.0
+margin_bottom = 54.0
+
+[node name="TextureRect" parent="." index="0"]
+margin_left = -87.4822
+margin_top = -48.3624
+margin_right = -7.48218
+margin_bottom = 31.6376
